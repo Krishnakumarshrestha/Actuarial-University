@@ -42,6 +42,7 @@ library(gt)
 ```{r message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
 pretty_table<- function(df,title)
   {
+as_raw_html(
   df %>% 
     gt() %>%
     tab_header(title = title) %>%
@@ -57,7 +58,7 @@ pretty_table<- function(df,title)
         column_labels.border.bottom.color = "black",
         table_body.border.bottom.color = "black",
         table_body.hlines.color = "white"
-    )
+    ))
     
 }
 ```
