@@ -35,6 +35,7 @@ library(dplyr)
 library(tidyr)
 library(rvest)
 library(janitor)
+library(stringr)
 ```
 
 ## Web scraping
@@ -61,4 +62,36 @@ At last , we use `html_table()` function to extract the table data from the tabl
 
 ```{r message=FALSE, warning=FALSE, paged.print=FALSE}
 df <- html_table(table)[[1]]
+```
+
+## Data Cleaning
+
+In r programming , we need to perform series of steps to fix or remove any issues with the data such as errors, missing values or inconsistencies.
+
+Here are the problem that i obeserved and perform to clean a data frame:
+
+### Standardize variable names and values
+
+```{r}
+df <- df %>%
+  janitor::clean_names()
+head(df)
+```
+
+### Inconsistencies 
+
+```{r}
+df <- df %>%
+  separate_rows(level_of_actuarial_courses_offered, sep = ",")
+
+head(df)
+```
+
+### Unnecessary white space
+
+```{r}
+df <- df %>%
+  mutate(country_territory = str_trim(country_territory),
+         level_of_actuarial_courses_offered = str_trim(level_of_actuarial_courses_offered))
+head(df)
 ```

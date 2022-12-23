@@ -37,6 +37,7 @@ library(dplyr)
 library(tidyr)
 library(rvest)
 library(janitor)
+library(stringr)
 ```
 
 ## Web scraping
@@ -71,3 +72,73 @@ table that we required
 ``` r
 df <- html_table(table)[[1]]
 ```
+
+## Data Cleaning
+
+In r programming , we need to perform series of steps to fix or remove
+any issues with the data such as errors, missing values or
+inconsistencies.
+
+Here are the problem that i obeserved and perform to clean a data frame:
+
+### Standardize variable names and values
+
+``` r
+df <- df %>%
+  janitor::clean_names()
+head(df)
+```
+
+    ## # A tibble: 6 × 5
+    ##   name                         level_of_actuarial_cour…¹ soa_r…² state…³ count…⁴
+    ##   <chr>                        <chr>                     <chr>   <chr>   <chr>  
+    ## 1 Abilene Christian University Bachelors                 UCAP-IC Texas   United…
+    ## 2 Acadia University            Bachelors                 UCAP-IC Nova S… Canada 
+    ## 3 Anahuac University           Bachelors                 UCAP-IC Huixqu… Mexico 
+    ## 4 Anderson University          Bachelors                 UCAP-IC Indiana United…
+    ## 5 Appalachian State University Bachelors                 UCAP-AC North … United…
+    ## 6 Arcadia University           Bachelors                 UCAP-AC Pennsy… United…
+    ## # … with abbreviated variable names ¹​level_of_actuarial_courses_offered,
+    ## #   ²​soa_recognition_tier, ³​state_province, ⁴​country_territory
+
+### Inconsistencies
+
+``` r
+df <- df %>%
+  separate_rows(level_of_actuarial_courses_offered, sep = ",")
+
+head(df)
+```
+
+    ## # A tibble: 6 × 5
+    ##   name                         level_of_actuarial_cour…¹ soa_r…² state…³ count…⁴
+    ##   <chr>                        <chr>                     <chr>   <chr>   <chr>  
+    ## 1 Abilene Christian University Bachelors                 UCAP-IC Texas   United…
+    ## 2 Acadia University            Bachelors                 UCAP-IC Nova S… Canada 
+    ## 3 Anahuac University           Bachelors                 UCAP-IC Huixqu… Mexico 
+    ## 4 Anderson University          Bachelors                 UCAP-IC Indiana United…
+    ## 5 Appalachian State University Bachelors                 UCAP-AC North … United…
+    ## 6 Arcadia University           Bachelors                 UCAP-AC Pennsy… United…
+    ## # … with abbreviated variable names ¹​level_of_actuarial_courses_offered,
+    ## #   ²​soa_recognition_tier, ³​state_province, ⁴​country_territory
+
+### Unnecessary white space
+
+``` r
+df <- df %>%
+  mutate(country_territory = str_trim(country_territory),
+         level_of_actuarial_courses_offered = str_trim(level_of_actuarial_courses_offered))
+head(df)
+```
+
+    ## # A tibble: 6 × 5
+    ##   name                         level_of_actuarial_cour…¹ soa_r…² state…³ count…⁴
+    ##   <chr>                        <chr>                     <chr>   <chr>   <chr>  
+    ## 1 Abilene Christian University Bachelors                 UCAP-IC Texas   United…
+    ## 2 Acadia University            Bachelors                 UCAP-IC Nova S… Canada 
+    ## 3 Anahuac University           Bachelors                 UCAP-IC Huixqu… Mexico 
+    ## 4 Anderson University          Bachelors                 UCAP-IC Indiana United…
+    ## 5 Appalachian State University Bachelors                 UCAP-AC North … United…
+    ## 6 Arcadia University           Bachelors                 UCAP-AC Pennsy… United…
+    ## # … with abbreviated variable names ¹​level_of_actuarial_courses_offered,
+    ## #   ²​soa_recognition_tier, ³​state_province, ⁴​country_territory
