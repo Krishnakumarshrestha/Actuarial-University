@@ -90,12 +90,12 @@ df <- df %>%
 pretty_table(df=head(df),title = "Sample 5")
 ```
 
-<div id="wqvddbawgw" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="iobrdvzgbn" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#wqvddbawgw .gt_table {
+#iobrdvzgbn .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -120,7 +120,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-left-color: #D3D3D3;
 }
 
-#wqvddbawgw .gt_heading {
+#iobrdvzgbn .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -132,12 +132,12 @@ pretty_table(df=head(df),title = "Sample 5")
   border-right-color: #D3D3D3;
 }
 
-#wqvddbawgw .gt_caption {
+#iobrdvzgbn .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#wqvddbawgw .gt_title {
+#iobrdvzgbn .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -149,7 +149,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-bottom-width: 0;
 }
 
-#wqvddbawgw .gt_subtitle {
+#iobrdvzgbn .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -161,13 +161,13 @@ pretty_table(df=head(df),title = "Sample 5")
   border-top-width: 0;
 }
 
-#wqvddbawgw .gt_bottom_border {
+#iobrdvzgbn .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #000000;
 }
 
-#wqvddbawgw .gt_col_headings {
+#iobrdvzgbn .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #000000;
@@ -182,7 +182,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-right-color: #D3D3D3;
 }
 
-#wqvddbawgw .gt_col_heading {
+#iobrdvzgbn .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -202,7 +202,7 @@ pretty_table(df=head(df),title = "Sample 5")
   overflow-x: hidden;
 }
 
-#wqvddbawgw .gt_column_spanner_outer {
+#iobrdvzgbn .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -214,15 +214,15 @@ pretty_table(df=head(df),title = "Sample 5")
   padding-right: 4px;
 }
 
-#wqvddbawgw .gt_column_spanner_outer:first-child {
+#iobrdvzgbn .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#wqvddbawgw .gt_column_spanner_outer:last-child {
+#iobrdvzgbn .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#wqvddbawgw .gt_column_spanner {
+#iobrdvzgbn .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #000000;
@@ -234,7 +234,7 @@ pretty_table(df=head(df),title = "Sample 5")
   width: 100%;
 }
 
-#wqvddbawgw .gt_group_heading {
+#iobrdvzgbn .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -260,7 +260,7 @@ pretty_table(df=head(df),title = "Sample 5")
   text-align: left;
 }
 
-#wqvddbawgw .gt_empty_group_heading {
+#iobrdvzgbn .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -275,15 +275,15 @@ pretty_table(df=head(df),title = "Sample 5")
   vertical-align: middle;
 }
 
-#wqvddbawgw .gt_from_md > :first-child {
+#iobrdvzgbn .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#wqvddbawgw .gt_from_md > :last-child {
+#iobrdvzgbn .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#wqvddbawgw .gt_row {
+#iobrdvzgbn .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -302,7 +302,7 @@ pretty_table(df=head(df),title = "Sample 5")
   overflow-x: hidden;
 }
 
-#wqvddbawgw .gt_stub {
+#iobrdvzgbn .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -315,7 +315,7 @@ pretty_table(df=head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#wqvddbawgw .gt_stub_row_group {
+#iobrdvzgbn .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -329,11 +329,11 @@ pretty_table(df=head(df),title = "Sample 5")
   vertical-align: top;
 }
 
-#wqvddbawgw .gt_row_group_first td {
+#iobrdvzgbn .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#wqvddbawgw .gt_summary_row {
+#iobrdvzgbn .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -343,16 +343,16 @@ pretty_table(df=head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#wqvddbawgw .gt_first_summary_row {
+#iobrdvzgbn .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#wqvddbawgw .gt_first_summary_row.thick {
+#iobrdvzgbn .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#wqvddbawgw .gt_last_summary_row {
+#iobrdvzgbn .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -362,7 +362,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-bottom-color: #D3D3D3;
 }
 
-#wqvddbawgw .gt_grand_summary_row {
+#iobrdvzgbn .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -372,7 +372,7 @@ pretty_table(df=head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#wqvddbawgw .gt_first_grand_summary_row {
+#iobrdvzgbn .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -382,11 +382,11 @@ pretty_table(df=head(df),title = "Sample 5")
   border-top-color: #D3D3D3;
 }
 
-#wqvddbawgw .gt_striped {
+#iobrdvzgbn .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#wqvddbawgw .gt_table_body {
+#iobrdvzgbn .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -395,7 +395,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-bottom-color: #000000;
 }
 
-#wqvddbawgw .gt_footnotes {
+#iobrdvzgbn .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -409,7 +409,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-right-color: #D3D3D3;
 }
 
-#wqvddbawgw .gt_footnote {
+#iobrdvzgbn .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -418,7 +418,7 @@ pretty_table(df=head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#wqvddbawgw .gt_sourcenotes {
+#iobrdvzgbn .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -432,7 +432,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-right-color: #D3D3D3;
 }
 
-#wqvddbawgw .gt_sourcenote {
+#iobrdvzgbn .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -440,64 +440,64 @@ pretty_table(df=head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#wqvddbawgw .gt_left {
+#iobrdvzgbn .gt_left {
   text-align: left;
 }
 
-#wqvddbawgw .gt_center {
+#iobrdvzgbn .gt_center {
   text-align: center;
 }
 
-#wqvddbawgw .gt_right {
+#iobrdvzgbn .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#wqvddbawgw .gt_font_normal {
+#iobrdvzgbn .gt_font_normal {
   font-weight: normal;
 }
 
-#wqvddbawgw .gt_font_bold {
+#iobrdvzgbn .gt_font_bold {
   font-weight: bold;
 }
 
-#wqvddbawgw .gt_font_italic {
+#iobrdvzgbn .gt_font_italic {
   font-style: italic;
 }
 
-#wqvddbawgw .gt_super {
+#iobrdvzgbn .gt_super {
   font-size: 65%;
 }
 
-#wqvddbawgw .gt_footnote_marks {
+#iobrdvzgbn .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#wqvddbawgw .gt_asterisk {
+#iobrdvzgbn .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#wqvddbawgw .gt_indent_1 {
+#iobrdvzgbn .gt_indent_1 {
   text-indent: 5px;
 }
 
-#wqvddbawgw .gt_indent_2 {
+#iobrdvzgbn .gt_indent_2 {
   text-indent: 10px;
 }
 
-#wqvddbawgw .gt_indent_3 {
+#iobrdvzgbn .gt_indent_3 {
   text-indent: 15px;
 }
 
-#wqvddbawgw .gt_indent_4 {
+#iobrdvzgbn .gt_indent_4 {
   text-indent: 20px;
 }
 
-#wqvddbawgw .gt_indent_5 {
+#iobrdvzgbn .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -566,12 +566,12 @@ df <- df %>%
 pretty_table(df = head(df),title = "Sample 5")
 ```
 
-<div id="xtzvaddlnu" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="gwgobtxapg" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#xtzvaddlnu .gt_table {
+#gwgobtxapg .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -596,7 +596,7 @@ pretty_table(df = head(df),title = "Sample 5")
   border-left-color: #D3D3D3;
 }
 
-#xtzvaddlnu .gt_heading {
+#gwgobtxapg .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -608,12 +608,12 @@ pretty_table(df = head(df),title = "Sample 5")
   border-right-color: #D3D3D3;
 }
 
-#xtzvaddlnu .gt_caption {
+#gwgobtxapg .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#xtzvaddlnu .gt_title {
+#gwgobtxapg .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -625,7 +625,7 @@ pretty_table(df = head(df),title = "Sample 5")
   border-bottom-width: 0;
 }
 
-#xtzvaddlnu .gt_subtitle {
+#gwgobtxapg .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -637,13 +637,13 @@ pretty_table(df = head(df),title = "Sample 5")
   border-top-width: 0;
 }
 
-#xtzvaddlnu .gt_bottom_border {
+#gwgobtxapg .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #000000;
 }
 
-#xtzvaddlnu .gt_col_headings {
+#gwgobtxapg .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #000000;
@@ -658,7 +658,7 @@ pretty_table(df = head(df),title = "Sample 5")
   border-right-color: #D3D3D3;
 }
 
-#xtzvaddlnu .gt_col_heading {
+#gwgobtxapg .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -678,7 +678,7 @@ pretty_table(df = head(df),title = "Sample 5")
   overflow-x: hidden;
 }
 
-#xtzvaddlnu .gt_column_spanner_outer {
+#gwgobtxapg .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -690,15 +690,15 @@ pretty_table(df = head(df),title = "Sample 5")
   padding-right: 4px;
 }
 
-#xtzvaddlnu .gt_column_spanner_outer:first-child {
+#gwgobtxapg .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#xtzvaddlnu .gt_column_spanner_outer:last-child {
+#gwgobtxapg .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#xtzvaddlnu .gt_column_spanner {
+#gwgobtxapg .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #000000;
@@ -710,7 +710,7 @@ pretty_table(df = head(df),title = "Sample 5")
   width: 100%;
 }
 
-#xtzvaddlnu .gt_group_heading {
+#gwgobtxapg .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -736,7 +736,7 @@ pretty_table(df = head(df),title = "Sample 5")
   text-align: left;
 }
 
-#xtzvaddlnu .gt_empty_group_heading {
+#gwgobtxapg .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -751,15 +751,15 @@ pretty_table(df = head(df),title = "Sample 5")
   vertical-align: middle;
 }
 
-#xtzvaddlnu .gt_from_md > :first-child {
+#gwgobtxapg .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#xtzvaddlnu .gt_from_md > :last-child {
+#gwgobtxapg .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#xtzvaddlnu .gt_row {
+#gwgobtxapg .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -778,7 +778,7 @@ pretty_table(df = head(df),title = "Sample 5")
   overflow-x: hidden;
 }
 
-#xtzvaddlnu .gt_stub {
+#gwgobtxapg .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -791,7 +791,7 @@ pretty_table(df = head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#xtzvaddlnu .gt_stub_row_group {
+#gwgobtxapg .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -805,11 +805,11 @@ pretty_table(df = head(df),title = "Sample 5")
   vertical-align: top;
 }
 
-#xtzvaddlnu .gt_row_group_first td {
+#gwgobtxapg .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#xtzvaddlnu .gt_summary_row {
+#gwgobtxapg .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -819,16 +819,16 @@ pretty_table(df = head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#xtzvaddlnu .gt_first_summary_row {
+#gwgobtxapg .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#xtzvaddlnu .gt_first_summary_row.thick {
+#gwgobtxapg .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#xtzvaddlnu .gt_last_summary_row {
+#gwgobtxapg .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -838,7 +838,7 @@ pretty_table(df = head(df),title = "Sample 5")
   border-bottom-color: #D3D3D3;
 }
 
-#xtzvaddlnu .gt_grand_summary_row {
+#gwgobtxapg .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -848,7 +848,7 @@ pretty_table(df = head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#xtzvaddlnu .gt_first_grand_summary_row {
+#gwgobtxapg .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -858,11 +858,11 @@ pretty_table(df = head(df),title = "Sample 5")
   border-top-color: #D3D3D3;
 }
 
-#xtzvaddlnu .gt_striped {
+#gwgobtxapg .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#xtzvaddlnu .gt_table_body {
+#gwgobtxapg .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -871,7 +871,7 @@ pretty_table(df = head(df),title = "Sample 5")
   border-bottom-color: #000000;
 }
 
-#xtzvaddlnu .gt_footnotes {
+#gwgobtxapg .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -885,7 +885,7 @@ pretty_table(df = head(df),title = "Sample 5")
   border-right-color: #D3D3D3;
 }
 
-#xtzvaddlnu .gt_footnote {
+#gwgobtxapg .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -894,7 +894,7 @@ pretty_table(df = head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#xtzvaddlnu .gt_sourcenotes {
+#gwgobtxapg .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -908,7 +908,7 @@ pretty_table(df = head(df),title = "Sample 5")
   border-right-color: #D3D3D3;
 }
 
-#xtzvaddlnu .gt_sourcenote {
+#gwgobtxapg .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -916,64 +916,64 @@ pretty_table(df = head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#xtzvaddlnu .gt_left {
+#gwgobtxapg .gt_left {
   text-align: left;
 }
 
-#xtzvaddlnu .gt_center {
+#gwgobtxapg .gt_center {
   text-align: center;
 }
 
-#xtzvaddlnu .gt_right {
+#gwgobtxapg .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#xtzvaddlnu .gt_font_normal {
+#gwgobtxapg .gt_font_normal {
   font-weight: normal;
 }
 
-#xtzvaddlnu .gt_font_bold {
+#gwgobtxapg .gt_font_bold {
   font-weight: bold;
 }
 
-#xtzvaddlnu .gt_font_italic {
+#gwgobtxapg .gt_font_italic {
   font-style: italic;
 }
 
-#xtzvaddlnu .gt_super {
+#gwgobtxapg .gt_super {
   font-size: 65%;
 }
 
-#xtzvaddlnu .gt_footnote_marks {
+#gwgobtxapg .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#xtzvaddlnu .gt_asterisk {
+#gwgobtxapg .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#xtzvaddlnu .gt_indent_1 {
+#gwgobtxapg .gt_indent_1 {
   text-indent: 5px;
 }
 
-#xtzvaddlnu .gt_indent_2 {
+#gwgobtxapg .gt_indent_2 {
   text-indent: 10px;
 }
 
-#xtzvaddlnu .gt_indent_3 {
+#gwgobtxapg .gt_indent_3 {
   text-indent: 15px;
 }
 
-#xtzvaddlnu .gt_indent_4 {
+#gwgobtxapg .gt_indent_4 {
   text-indent: 20px;
 }
 
-#xtzvaddlnu .gt_indent_5 {
+#gwgobtxapg .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -1043,12 +1043,12 @@ df <- df %>%
 pretty_table(df=head(df),title = "Sample 5")
 ```
 
-<div id="mhlntvhpfj" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="ctpcezkvke" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#mhlntvhpfj .gt_table {
+#ctpcezkvke .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1073,7 +1073,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-left-color: #D3D3D3;
 }
 
-#mhlntvhpfj .gt_heading {
+#ctpcezkvke .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1085,12 +1085,12 @@ pretty_table(df=head(df),title = "Sample 5")
   border-right-color: #D3D3D3;
 }
 
-#mhlntvhpfj .gt_caption {
+#ctpcezkvke .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#mhlntvhpfj .gt_title {
+#ctpcezkvke .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1102,7 +1102,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-bottom-width: 0;
 }
 
-#mhlntvhpfj .gt_subtitle {
+#ctpcezkvke .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1114,13 +1114,13 @@ pretty_table(df=head(df),title = "Sample 5")
   border-top-width: 0;
 }
 
-#mhlntvhpfj .gt_bottom_border {
+#ctpcezkvke .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #000000;
 }
 
-#mhlntvhpfj .gt_col_headings {
+#ctpcezkvke .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #000000;
@@ -1135,7 +1135,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-right-color: #D3D3D3;
 }
 
-#mhlntvhpfj .gt_col_heading {
+#ctpcezkvke .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1155,7 +1155,7 @@ pretty_table(df=head(df),title = "Sample 5")
   overflow-x: hidden;
 }
 
-#mhlntvhpfj .gt_column_spanner_outer {
+#ctpcezkvke .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1167,15 +1167,15 @@ pretty_table(df=head(df),title = "Sample 5")
   padding-right: 4px;
 }
 
-#mhlntvhpfj .gt_column_spanner_outer:first-child {
+#ctpcezkvke .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#mhlntvhpfj .gt_column_spanner_outer:last-child {
+#ctpcezkvke .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#mhlntvhpfj .gt_column_spanner {
+#ctpcezkvke .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #000000;
@@ -1187,7 +1187,7 @@ pretty_table(df=head(df),title = "Sample 5")
   width: 100%;
 }
 
-#mhlntvhpfj .gt_group_heading {
+#ctpcezkvke .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1213,7 +1213,7 @@ pretty_table(df=head(df),title = "Sample 5")
   text-align: left;
 }
 
-#mhlntvhpfj .gt_empty_group_heading {
+#ctpcezkvke .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1228,15 +1228,15 @@ pretty_table(df=head(df),title = "Sample 5")
   vertical-align: middle;
 }
 
-#mhlntvhpfj .gt_from_md > :first-child {
+#ctpcezkvke .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#mhlntvhpfj .gt_from_md > :last-child {
+#ctpcezkvke .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#mhlntvhpfj .gt_row {
+#ctpcezkvke .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1255,7 +1255,7 @@ pretty_table(df=head(df),title = "Sample 5")
   overflow-x: hidden;
 }
 
-#mhlntvhpfj .gt_stub {
+#ctpcezkvke .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1268,7 +1268,7 @@ pretty_table(df=head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#mhlntvhpfj .gt_stub_row_group {
+#ctpcezkvke .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1282,11 +1282,11 @@ pretty_table(df=head(df),title = "Sample 5")
   vertical-align: top;
 }
 
-#mhlntvhpfj .gt_row_group_first td {
+#ctpcezkvke .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#mhlntvhpfj .gt_summary_row {
+#ctpcezkvke .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1296,16 +1296,16 @@ pretty_table(df=head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#mhlntvhpfj .gt_first_summary_row {
+#ctpcezkvke .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#mhlntvhpfj .gt_first_summary_row.thick {
+#ctpcezkvke .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#mhlntvhpfj .gt_last_summary_row {
+#ctpcezkvke .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1315,7 +1315,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-bottom-color: #D3D3D3;
 }
 
-#mhlntvhpfj .gt_grand_summary_row {
+#ctpcezkvke .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1325,7 +1325,7 @@ pretty_table(df=head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#mhlntvhpfj .gt_first_grand_summary_row {
+#ctpcezkvke .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1335,11 +1335,11 @@ pretty_table(df=head(df),title = "Sample 5")
   border-top-color: #D3D3D3;
 }
 
-#mhlntvhpfj .gt_striped {
+#ctpcezkvke .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#mhlntvhpfj .gt_table_body {
+#ctpcezkvke .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1348,7 +1348,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-bottom-color: #000000;
 }
 
-#mhlntvhpfj .gt_footnotes {
+#ctpcezkvke .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1362,7 +1362,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-right-color: #D3D3D3;
 }
 
-#mhlntvhpfj .gt_footnote {
+#ctpcezkvke .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -1371,7 +1371,7 @@ pretty_table(df=head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#mhlntvhpfj .gt_sourcenotes {
+#ctpcezkvke .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1385,7 +1385,7 @@ pretty_table(df=head(df),title = "Sample 5")
   border-right-color: #D3D3D3;
 }
 
-#mhlntvhpfj .gt_sourcenote {
+#ctpcezkvke .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1393,64 +1393,64 @@ pretty_table(df=head(df),title = "Sample 5")
   padding-right: 5px;
 }
 
-#mhlntvhpfj .gt_left {
+#ctpcezkvke .gt_left {
   text-align: left;
 }
 
-#mhlntvhpfj .gt_center {
+#ctpcezkvke .gt_center {
   text-align: center;
 }
 
-#mhlntvhpfj .gt_right {
+#ctpcezkvke .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#mhlntvhpfj .gt_font_normal {
+#ctpcezkvke .gt_font_normal {
   font-weight: normal;
 }
 
-#mhlntvhpfj .gt_font_bold {
+#ctpcezkvke .gt_font_bold {
   font-weight: bold;
 }
 
-#mhlntvhpfj .gt_font_italic {
+#ctpcezkvke .gt_font_italic {
   font-style: italic;
 }
 
-#mhlntvhpfj .gt_super {
+#ctpcezkvke .gt_super {
   font-size: 65%;
 }
 
-#mhlntvhpfj .gt_footnote_marks {
+#ctpcezkvke .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#mhlntvhpfj .gt_asterisk {
+#ctpcezkvke .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#mhlntvhpfj .gt_indent_1 {
+#ctpcezkvke .gt_indent_1 {
   text-indent: 5px;
 }
 
-#mhlntvhpfj .gt_indent_2 {
+#ctpcezkvke .gt_indent_2 {
   text-indent: 10px;
 }
 
-#mhlntvhpfj .gt_indent_3 {
+#ctpcezkvke .gt_indent_3 {
   text-indent: 15px;
 }
 
-#mhlntvhpfj .gt_indent_4 {
+#ctpcezkvke .gt_indent_4 {
   text-indent: 20px;
 }
 
-#mhlntvhpfj .gt_indent_5 {
+#ctpcezkvke .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -1526,12 +1526,12 @@ df1 <- df %>%
 pretty_table(head(df),"sample 5")
 ```
 
-<div id="hnxaunwfaz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="nashfbxqru" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#hnxaunwfaz .gt_table {
+#nashfbxqru .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -1556,7 +1556,7 @@ pretty_table(head(df),"sample 5")
   border-left-color: #D3D3D3;
 }
 
-#hnxaunwfaz .gt_heading {
+#nashfbxqru .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1568,12 +1568,12 @@ pretty_table(head(df),"sample 5")
   border-right-color: #D3D3D3;
 }
 
-#hnxaunwfaz .gt_caption {
+#nashfbxqru .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#hnxaunwfaz .gt_title {
+#nashfbxqru .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1585,7 +1585,7 @@ pretty_table(head(df),"sample 5")
   border-bottom-width: 0;
 }
 
-#hnxaunwfaz .gt_subtitle {
+#nashfbxqru .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1597,13 +1597,13 @@ pretty_table(head(df),"sample 5")
   border-top-width: 0;
 }
 
-#hnxaunwfaz .gt_bottom_border {
+#nashfbxqru .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #000000;
 }
 
-#hnxaunwfaz .gt_col_headings {
+#nashfbxqru .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #000000;
@@ -1618,7 +1618,7 @@ pretty_table(head(df),"sample 5")
   border-right-color: #D3D3D3;
 }
 
-#hnxaunwfaz .gt_col_heading {
+#nashfbxqru .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1638,7 +1638,7 @@ pretty_table(head(df),"sample 5")
   overflow-x: hidden;
 }
 
-#hnxaunwfaz .gt_column_spanner_outer {
+#nashfbxqru .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1650,15 +1650,15 @@ pretty_table(head(df),"sample 5")
   padding-right: 4px;
 }
 
-#hnxaunwfaz .gt_column_spanner_outer:first-child {
+#nashfbxqru .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#hnxaunwfaz .gt_column_spanner_outer:last-child {
+#nashfbxqru .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#hnxaunwfaz .gt_column_spanner {
+#nashfbxqru .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #000000;
@@ -1670,7 +1670,7 @@ pretty_table(head(df),"sample 5")
   width: 100%;
 }
 
-#hnxaunwfaz .gt_group_heading {
+#nashfbxqru .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1696,7 +1696,7 @@ pretty_table(head(df),"sample 5")
   text-align: left;
 }
 
-#hnxaunwfaz .gt_empty_group_heading {
+#nashfbxqru .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1711,15 +1711,15 @@ pretty_table(head(df),"sample 5")
   vertical-align: middle;
 }
 
-#hnxaunwfaz .gt_from_md > :first-child {
+#nashfbxqru .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#hnxaunwfaz .gt_from_md > :last-child {
+#nashfbxqru .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#hnxaunwfaz .gt_row {
+#nashfbxqru .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1738,7 +1738,7 @@ pretty_table(head(df),"sample 5")
   overflow-x: hidden;
 }
 
-#hnxaunwfaz .gt_stub {
+#nashfbxqru .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1751,7 +1751,7 @@ pretty_table(head(df),"sample 5")
   padding-right: 5px;
 }
 
-#hnxaunwfaz .gt_stub_row_group {
+#nashfbxqru .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1765,11 +1765,11 @@ pretty_table(head(df),"sample 5")
   vertical-align: top;
 }
 
-#hnxaunwfaz .gt_row_group_first td {
+#nashfbxqru .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#hnxaunwfaz .gt_summary_row {
+#nashfbxqru .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1779,16 +1779,16 @@ pretty_table(head(df),"sample 5")
   padding-right: 5px;
 }
 
-#hnxaunwfaz .gt_first_summary_row {
+#nashfbxqru .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#hnxaunwfaz .gt_first_summary_row.thick {
+#nashfbxqru .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#hnxaunwfaz .gt_last_summary_row {
+#nashfbxqru .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1798,7 +1798,7 @@ pretty_table(head(df),"sample 5")
   border-bottom-color: #D3D3D3;
 }
 
-#hnxaunwfaz .gt_grand_summary_row {
+#nashfbxqru .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1808,7 +1808,7 @@ pretty_table(head(df),"sample 5")
   padding-right: 5px;
 }
 
-#hnxaunwfaz .gt_first_grand_summary_row {
+#nashfbxqru .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1818,11 +1818,11 @@ pretty_table(head(df),"sample 5")
   border-top-color: #D3D3D3;
 }
 
-#hnxaunwfaz .gt_striped {
+#nashfbxqru .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#hnxaunwfaz .gt_table_body {
+#nashfbxqru .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1831,7 +1831,7 @@ pretty_table(head(df),"sample 5")
   border-bottom-color: #000000;
 }
 
-#hnxaunwfaz .gt_footnotes {
+#nashfbxqru .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1845,7 +1845,7 @@ pretty_table(head(df),"sample 5")
   border-right-color: #D3D3D3;
 }
 
-#hnxaunwfaz .gt_footnote {
+#nashfbxqru .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -1854,7 +1854,7 @@ pretty_table(head(df),"sample 5")
   padding-right: 5px;
 }
 
-#hnxaunwfaz .gt_sourcenotes {
+#nashfbxqru .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1868,7 +1868,7 @@ pretty_table(head(df),"sample 5")
   border-right-color: #D3D3D3;
 }
 
-#hnxaunwfaz .gt_sourcenote {
+#nashfbxqru .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1876,64 +1876,64 @@ pretty_table(head(df),"sample 5")
   padding-right: 5px;
 }
 
-#hnxaunwfaz .gt_left {
+#nashfbxqru .gt_left {
   text-align: left;
 }
 
-#hnxaunwfaz .gt_center {
+#nashfbxqru .gt_center {
   text-align: center;
 }
 
-#hnxaunwfaz .gt_right {
+#nashfbxqru .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#hnxaunwfaz .gt_font_normal {
+#nashfbxqru .gt_font_normal {
   font-weight: normal;
 }
 
-#hnxaunwfaz .gt_font_bold {
+#nashfbxqru .gt_font_bold {
   font-weight: bold;
 }
 
-#hnxaunwfaz .gt_font_italic {
+#nashfbxqru .gt_font_italic {
   font-style: italic;
 }
 
-#hnxaunwfaz .gt_super {
+#nashfbxqru .gt_super {
   font-size: 65%;
 }
 
-#hnxaunwfaz .gt_footnote_marks {
+#nashfbxqru .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#hnxaunwfaz .gt_asterisk {
+#nashfbxqru .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#hnxaunwfaz .gt_indent_1 {
+#nashfbxqru .gt_indent_1 {
   text-indent: 5px;
 }
 
-#hnxaunwfaz .gt_indent_2 {
+#nashfbxqru .gt_indent_2 {
   text-indent: 10px;
 }
 
-#hnxaunwfaz .gt_indent_3 {
+#nashfbxqru .gt_indent_3 {
   text-indent: 15px;
 }
 
-#hnxaunwfaz .gt_indent_4 {
+#nashfbxqru .gt_indent_4 {
   text-indent: 20px;
 }
 
-#hnxaunwfaz .gt_indent_5 {
+#nashfbxqru .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -2022,12 +2022,12 @@ So lets get list for each tier
   pretty_table(df=uec,title = "List of University in CAE with UEC tier")
   ```
 
-  <div id="tqnfdaqbcy" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+  <div id="uwirfnoeus" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   <style>html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
   }
 
-  #tqnfdaqbcy .gt_table {
+  #uwirfnoeus .gt_table {
     display: table;
     border-collapse: collapse;
     margin-left: auto;
@@ -2052,7 +2052,7 @@ So lets get list for each tier
     border-left-color: #D3D3D3;
   }
 
-  #tqnfdaqbcy .gt_heading {
+  #uwirfnoeus .gt_heading {
     background-color: #FFFFFF;
     text-align: center;
     border-bottom-color: #FFFFFF;
@@ -2064,12 +2064,12 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #tqnfdaqbcy .gt_caption {
+  #uwirfnoeus .gt_caption {
     padding-top: 4px;
     padding-bottom: 4px;
   }
 
-  #tqnfdaqbcy .gt_title {
+  #uwirfnoeus .gt_title {
     color: #333333;
     font-size: 125%;
     font-weight: initial;
@@ -2081,7 +2081,7 @@ So lets get list for each tier
     border-bottom-width: 0;
   }
 
-  #tqnfdaqbcy .gt_subtitle {
+  #uwirfnoeus .gt_subtitle {
     color: #333333;
     font-size: 85%;
     font-weight: initial;
@@ -2093,13 +2093,13 @@ So lets get list for each tier
     border-top-width: 0;
   }
 
-  #tqnfdaqbcy .gt_bottom_border {
+  #uwirfnoeus .gt_bottom_border {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #000000;
   }
 
-  #tqnfdaqbcy .gt_col_headings {
+  #uwirfnoeus .gt_col_headings {
     border-top-style: solid;
     border-top-width: 2px;
     border-top-color: #000000;
@@ -2114,7 +2114,7 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #tqnfdaqbcy .gt_col_heading {
+  #uwirfnoeus .gt_col_heading {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -2134,7 +2134,7 @@ So lets get list for each tier
     overflow-x: hidden;
   }
 
-  #tqnfdaqbcy .gt_column_spanner_outer {
+  #uwirfnoeus .gt_column_spanner_outer {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -2146,15 +2146,15 @@ So lets get list for each tier
     padding-right: 4px;
   }
 
-  #tqnfdaqbcy .gt_column_spanner_outer:first-child {
+  #uwirfnoeus .gt_column_spanner_outer:first-child {
     padding-left: 0;
   }
 
-  #tqnfdaqbcy .gt_column_spanner_outer:last-child {
+  #uwirfnoeus .gt_column_spanner_outer:last-child {
     padding-right: 0;
   }
 
-  #tqnfdaqbcy .gt_column_spanner {
+  #uwirfnoeus .gt_column_spanner {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #000000;
@@ -2166,7 +2166,7 @@ So lets get list for each tier
     width: 100%;
   }
 
-  #tqnfdaqbcy .gt_group_heading {
+  #uwirfnoeus .gt_group_heading {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -2192,7 +2192,7 @@ So lets get list for each tier
     text-align: left;
   }
 
-  #tqnfdaqbcy .gt_empty_group_heading {
+  #uwirfnoeus .gt_empty_group_heading {
     padding: 0.5px;
     color: #333333;
     background-color: #FFFFFF;
@@ -2207,15 +2207,15 @@ So lets get list for each tier
     vertical-align: middle;
   }
 
-  #tqnfdaqbcy .gt_from_md > :first-child {
+  #uwirfnoeus .gt_from_md > :first-child {
     margin-top: 0;
   }
 
-  #tqnfdaqbcy .gt_from_md > :last-child {
+  #uwirfnoeus .gt_from_md > :last-child {
     margin-bottom: 0;
   }
 
-  #tqnfdaqbcy .gt_row {
+  #uwirfnoeus .gt_row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -2234,7 +2234,7 @@ So lets get list for each tier
     overflow-x: hidden;
   }
 
-  #tqnfdaqbcy .gt_stub {
+  #uwirfnoeus .gt_stub {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -2247,7 +2247,7 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #tqnfdaqbcy .gt_stub_row_group {
+  #uwirfnoeus .gt_stub_row_group {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -2261,11 +2261,11 @@ So lets get list for each tier
     vertical-align: top;
   }
 
-  #tqnfdaqbcy .gt_row_group_first td {
+  #uwirfnoeus .gt_row_group_first td {
     border-top-width: 2px;
   }
 
-  #tqnfdaqbcy .gt_summary_row {
+  #uwirfnoeus .gt_summary_row {
     color: #333333;
     background-color: #FFFFFF;
     text-transform: inherit;
@@ -2275,16 +2275,16 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #tqnfdaqbcy .gt_first_summary_row {
+  #uwirfnoeus .gt_first_summary_row {
     border-top-style: solid;
     border-top-color: #D3D3D3;
   }
 
-  #tqnfdaqbcy .gt_first_summary_row.thick {
+  #uwirfnoeus .gt_first_summary_row.thick {
     border-top-width: 2px;
   }
 
-  #tqnfdaqbcy .gt_last_summary_row {
+  #uwirfnoeus .gt_last_summary_row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -2294,7 +2294,7 @@ So lets get list for each tier
     border-bottom-color: #D3D3D3;
   }
 
-  #tqnfdaqbcy .gt_grand_summary_row {
+  #uwirfnoeus .gt_grand_summary_row {
     color: #333333;
     background-color: #FFFFFF;
     text-transform: inherit;
@@ -2304,7 +2304,7 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #tqnfdaqbcy .gt_first_grand_summary_row {
+  #uwirfnoeus .gt_first_grand_summary_row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -2314,11 +2314,11 @@ So lets get list for each tier
     border-top-color: #D3D3D3;
   }
 
-  #tqnfdaqbcy .gt_striped {
+  #uwirfnoeus .gt_striped {
     background-color: rgba(128, 128, 128, 0.05);
   }
 
-  #tqnfdaqbcy .gt_table_body {
+  #uwirfnoeus .gt_table_body {
     border-top-style: solid;
     border-top-width: 2px;
     border-top-color: #D3D3D3;
@@ -2327,7 +2327,7 @@ So lets get list for each tier
     border-bottom-color: #000000;
   }
 
-  #tqnfdaqbcy .gt_footnotes {
+  #uwirfnoeus .gt_footnotes {
     color: #333333;
     background-color: #FFFFFF;
     border-bottom-style: none;
@@ -2341,7 +2341,7 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #tqnfdaqbcy .gt_footnote {
+  #uwirfnoeus .gt_footnote {
     margin: 0px;
     font-size: 90%;
     padding-left: 4px;
@@ -2350,7 +2350,7 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #tqnfdaqbcy .gt_sourcenotes {
+  #uwirfnoeus .gt_sourcenotes {
     color: #333333;
     background-color: #FFFFFF;
     border-bottom-style: none;
@@ -2364,7 +2364,7 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #tqnfdaqbcy .gt_sourcenote {
+  #uwirfnoeus .gt_sourcenote {
     font-size: 90%;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -2372,64 +2372,64 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #tqnfdaqbcy .gt_left {
+  #uwirfnoeus .gt_left {
     text-align: left;
   }
 
-  #tqnfdaqbcy .gt_center {
+  #uwirfnoeus .gt_center {
     text-align: center;
   }
 
-  #tqnfdaqbcy .gt_right {
+  #uwirfnoeus .gt_right {
     text-align: right;
     font-variant-numeric: tabular-nums;
   }
 
-  #tqnfdaqbcy .gt_font_normal {
+  #uwirfnoeus .gt_font_normal {
     font-weight: normal;
   }
 
-  #tqnfdaqbcy .gt_font_bold {
+  #uwirfnoeus .gt_font_bold {
     font-weight: bold;
   }
 
-  #tqnfdaqbcy .gt_font_italic {
+  #uwirfnoeus .gt_font_italic {
     font-style: italic;
   }
 
-  #tqnfdaqbcy .gt_super {
+  #uwirfnoeus .gt_super {
     font-size: 65%;
   }
 
-  #tqnfdaqbcy .gt_footnote_marks {
+  #uwirfnoeus .gt_footnote_marks {
     font-style: italic;
     font-weight: normal;
     font-size: 75%;
     vertical-align: 0.4em;
   }
 
-  #tqnfdaqbcy .gt_asterisk {
+  #uwirfnoeus .gt_asterisk {
     font-size: 100%;
     vertical-align: 0;
   }
 
-  #tqnfdaqbcy .gt_indent_1 {
+  #uwirfnoeus .gt_indent_1 {
     text-indent: 5px;
   }
 
-  #tqnfdaqbcy .gt_indent_2 {
+  #uwirfnoeus .gt_indent_2 {
     text-indent: 10px;
   }
 
-  #tqnfdaqbcy .gt_indent_3 {
+  #uwirfnoeus .gt_indent_3 {
     text-indent: 15px;
   }
 
-  #tqnfdaqbcy .gt_indent_4 {
+  #uwirfnoeus .gt_indent_4 {
     text-indent: 20px;
   }
 
-  #tqnfdaqbcy .gt_indent_5 {
+  #uwirfnoeus .gt_indent_5 {
     text-indent: 25px;
   }
   </style>
@@ -2509,12 +2509,12 @@ So lets get list for each tier
   pretty_table(df=cae,title = "List of University in CAE tier")
   ```
 
-  <div id="mwbptkywzw" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+  <div id="utnjtbreyq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   <style>html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
   }
 
-  #mwbptkywzw .gt_table {
+  #utnjtbreyq .gt_table {
     display: table;
     border-collapse: collapse;
     margin-left: auto;
@@ -2539,7 +2539,7 @@ So lets get list for each tier
     border-left-color: #D3D3D3;
   }
 
-  #mwbptkywzw .gt_heading {
+  #utnjtbreyq .gt_heading {
     background-color: #FFFFFF;
     text-align: center;
     border-bottom-color: #FFFFFF;
@@ -2551,12 +2551,12 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #mwbptkywzw .gt_caption {
+  #utnjtbreyq .gt_caption {
     padding-top: 4px;
     padding-bottom: 4px;
   }
 
-  #mwbptkywzw .gt_title {
+  #utnjtbreyq .gt_title {
     color: #333333;
     font-size: 125%;
     font-weight: initial;
@@ -2568,7 +2568,7 @@ So lets get list for each tier
     border-bottom-width: 0;
   }
 
-  #mwbptkywzw .gt_subtitle {
+  #utnjtbreyq .gt_subtitle {
     color: #333333;
     font-size: 85%;
     font-weight: initial;
@@ -2580,13 +2580,13 @@ So lets get list for each tier
     border-top-width: 0;
   }
 
-  #mwbptkywzw .gt_bottom_border {
+  #utnjtbreyq .gt_bottom_border {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #000000;
   }
 
-  #mwbptkywzw .gt_col_headings {
+  #utnjtbreyq .gt_col_headings {
     border-top-style: solid;
     border-top-width: 2px;
     border-top-color: #000000;
@@ -2601,7 +2601,7 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #mwbptkywzw .gt_col_heading {
+  #utnjtbreyq .gt_col_heading {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -2621,7 +2621,7 @@ So lets get list for each tier
     overflow-x: hidden;
   }
 
-  #mwbptkywzw .gt_column_spanner_outer {
+  #utnjtbreyq .gt_column_spanner_outer {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -2633,15 +2633,15 @@ So lets get list for each tier
     padding-right: 4px;
   }
 
-  #mwbptkywzw .gt_column_spanner_outer:first-child {
+  #utnjtbreyq .gt_column_spanner_outer:first-child {
     padding-left: 0;
   }
 
-  #mwbptkywzw .gt_column_spanner_outer:last-child {
+  #utnjtbreyq .gt_column_spanner_outer:last-child {
     padding-right: 0;
   }
 
-  #mwbptkywzw .gt_column_spanner {
+  #utnjtbreyq .gt_column_spanner {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #000000;
@@ -2653,7 +2653,7 @@ So lets get list for each tier
     width: 100%;
   }
 
-  #mwbptkywzw .gt_group_heading {
+  #utnjtbreyq .gt_group_heading {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -2679,7 +2679,7 @@ So lets get list for each tier
     text-align: left;
   }
 
-  #mwbptkywzw .gt_empty_group_heading {
+  #utnjtbreyq .gt_empty_group_heading {
     padding: 0.5px;
     color: #333333;
     background-color: #FFFFFF;
@@ -2694,15 +2694,15 @@ So lets get list for each tier
     vertical-align: middle;
   }
 
-  #mwbptkywzw .gt_from_md > :first-child {
+  #utnjtbreyq .gt_from_md > :first-child {
     margin-top: 0;
   }
 
-  #mwbptkywzw .gt_from_md > :last-child {
+  #utnjtbreyq .gt_from_md > :last-child {
     margin-bottom: 0;
   }
 
-  #mwbptkywzw .gt_row {
+  #utnjtbreyq .gt_row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -2721,7 +2721,7 @@ So lets get list for each tier
     overflow-x: hidden;
   }
 
-  #mwbptkywzw .gt_stub {
+  #utnjtbreyq .gt_stub {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -2734,7 +2734,7 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #mwbptkywzw .gt_stub_row_group {
+  #utnjtbreyq .gt_stub_row_group {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -2748,11 +2748,11 @@ So lets get list for each tier
     vertical-align: top;
   }
 
-  #mwbptkywzw .gt_row_group_first td {
+  #utnjtbreyq .gt_row_group_first td {
     border-top-width: 2px;
   }
 
-  #mwbptkywzw .gt_summary_row {
+  #utnjtbreyq .gt_summary_row {
     color: #333333;
     background-color: #FFFFFF;
     text-transform: inherit;
@@ -2762,16 +2762,16 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #mwbptkywzw .gt_first_summary_row {
+  #utnjtbreyq .gt_first_summary_row {
     border-top-style: solid;
     border-top-color: #D3D3D3;
   }
 
-  #mwbptkywzw .gt_first_summary_row.thick {
+  #utnjtbreyq .gt_first_summary_row.thick {
     border-top-width: 2px;
   }
 
-  #mwbptkywzw .gt_last_summary_row {
+  #utnjtbreyq .gt_last_summary_row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -2781,7 +2781,7 @@ So lets get list for each tier
     border-bottom-color: #D3D3D3;
   }
 
-  #mwbptkywzw .gt_grand_summary_row {
+  #utnjtbreyq .gt_grand_summary_row {
     color: #333333;
     background-color: #FFFFFF;
     text-transform: inherit;
@@ -2791,7 +2791,7 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #mwbptkywzw .gt_first_grand_summary_row {
+  #utnjtbreyq .gt_first_grand_summary_row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -2801,11 +2801,11 @@ So lets get list for each tier
     border-top-color: #D3D3D3;
   }
 
-  #mwbptkywzw .gt_striped {
+  #utnjtbreyq .gt_striped {
     background-color: rgba(128, 128, 128, 0.05);
   }
 
-  #mwbptkywzw .gt_table_body {
+  #utnjtbreyq .gt_table_body {
     border-top-style: solid;
     border-top-width: 2px;
     border-top-color: #D3D3D3;
@@ -2814,7 +2814,7 @@ So lets get list for each tier
     border-bottom-color: #000000;
   }
 
-  #mwbptkywzw .gt_footnotes {
+  #utnjtbreyq .gt_footnotes {
     color: #333333;
     background-color: #FFFFFF;
     border-bottom-style: none;
@@ -2828,7 +2828,7 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #mwbptkywzw .gt_footnote {
+  #utnjtbreyq .gt_footnote {
     margin: 0px;
     font-size: 90%;
     padding-left: 4px;
@@ -2837,7 +2837,7 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #mwbptkywzw .gt_sourcenotes {
+  #utnjtbreyq .gt_sourcenotes {
     color: #333333;
     background-color: #FFFFFF;
     border-bottom-style: none;
@@ -2851,7 +2851,7 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #mwbptkywzw .gt_sourcenote {
+  #utnjtbreyq .gt_sourcenote {
     font-size: 90%;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -2859,64 +2859,64 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #mwbptkywzw .gt_left {
+  #utnjtbreyq .gt_left {
     text-align: left;
   }
 
-  #mwbptkywzw .gt_center {
+  #utnjtbreyq .gt_center {
     text-align: center;
   }
 
-  #mwbptkywzw .gt_right {
+  #utnjtbreyq .gt_right {
     text-align: right;
     font-variant-numeric: tabular-nums;
   }
 
-  #mwbptkywzw .gt_font_normal {
+  #utnjtbreyq .gt_font_normal {
     font-weight: normal;
   }
 
-  #mwbptkywzw .gt_font_bold {
+  #utnjtbreyq .gt_font_bold {
     font-weight: bold;
   }
 
-  #mwbptkywzw .gt_font_italic {
+  #utnjtbreyq .gt_font_italic {
     font-style: italic;
   }
 
-  #mwbptkywzw .gt_super {
+  #utnjtbreyq .gt_super {
     font-size: 65%;
   }
 
-  #mwbptkywzw .gt_footnote_marks {
+  #utnjtbreyq .gt_footnote_marks {
     font-style: italic;
     font-weight: normal;
     font-size: 75%;
     vertical-align: 0.4em;
   }
 
-  #mwbptkywzw .gt_asterisk {
+  #utnjtbreyq .gt_asterisk {
     font-size: 100%;
     vertical-align: 0;
   }
 
-  #mwbptkywzw .gt_indent_1 {
+  #utnjtbreyq .gt_indent_1 {
     text-indent: 5px;
   }
 
-  #mwbptkywzw .gt_indent_2 {
+  #utnjtbreyq .gt_indent_2 {
     text-indent: 10px;
   }
 
-  #mwbptkywzw .gt_indent_3 {
+  #utnjtbreyq .gt_indent_3 {
     text-indent: 15px;
   }
 
-  #mwbptkywzw .gt_indent_4 {
+  #utnjtbreyq .gt_indent_4 {
     text-indent: 20px;
   }
 
-  #mwbptkywzw .gt_indent_5 {
+  #utnjtbreyq .gt_indent_5 {
     text-indent: 25px;
   }
   </style>
@@ -2986,12 +2986,12 @@ So lets get list for each tier
   pretty_table(df=ac,title = "List of University in AC tier")
   ```
 
-  <div id="jetkbwbfbf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+  <div id="duokjluwvb" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   <style>html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
   }
 
-  #jetkbwbfbf .gt_table {
+  #duokjluwvb .gt_table {
     display: table;
     border-collapse: collapse;
     margin-left: auto;
@@ -3016,7 +3016,7 @@ So lets get list for each tier
     border-left-color: #D3D3D3;
   }
 
-  #jetkbwbfbf .gt_heading {
+  #duokjluwvb .gt_heading {
     background-color: #FFFFFF;
     text-align: center;
     border-bottom-color: #FFFFFF;
@@ -3028,12 +3028,12 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #jetkbwbfbf .gt_caption {
+  #duokjluwvb .gt_caption {
     padding-top: 4px;
     padding-bottom: 4px;
   }
 
-  #jetkbwbfbf .gt_title {
+  #duokjluwvb .gt_title {
     color: #333333;
     font-size: 125%;
     font-weight: initial;
@@ -3045,7 +3045,7 @@ So lets get list for each tier
     border-bottom-width: 0;
   }
 
-  #jetkbwbfbf .gt_subtitle {
+  #duokjluwvb .gt_subtitle {
     color: #333333;
     font-size: 85%;
     font-weight: initial;
@@ -3057,13 +3057,13 @@ So lets get list for each tier
     border-top-width: 0;
   }
 
-  #jetkbwbfbf .gt_bottom_border {
+  #duokjluwvb .gt_bottom_border {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #000000;
   }
 
-  #jetkbwbfbf .gt_col_headings {
+  #duokjluwvb .gt_col_headings {
     border-top-style: solid;
     border-top-width: 2px;
     border-top-color: #000000;
@@ -3078,7 +3078,7 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #jetkbwbfbf .gt_col_heading {
+  #duokjluwvb .gt_col_heading {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -3098,7 +3098,7 @@ So lets get list for each tier
     overflow-x: hidden;
   }
 
-  #jetkbwbfbf .gt_column_spanner_outer {
+  #duokjluwvb .gt_column_spanner_outer {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -3110,15 +3110,15 @@ So lets get list for each tier
     padding-right: 4px;
   }
 
-  #jetkbwbfbf .gt_column_spanner_outer:first-child {
+  #duokjluwvb .gt_column_spanner_outer:first-child {
     padding-left: 0;
   }
 
-  #jetkbwbfbf .gt_column_spanner_outer:last-child {
+  #duokjluwvb .gt_column_spanner_outer:last-child {
     padding-right: 0;
   }
 
-  #jetkbwbfbf .gt_column_spanner {
+  #duokjluwvb .gt_column_spanner {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #000000;
@@ -3130,7 +3130,7 @@ So lets get list for each tier
     width: 100%;
   }
 
-  #jetkbwbfbf .gt_group_heading {
+  #duokjluwvb .gt_group_heading {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -3156,7 +3156,7 @@ So lets get list for each tier
     text-align: left;
   }
 
-  #jetkbwbfbf .gt_empty_group_heading {
+  #duokjluwvb .gt_empty_group_heading {
     padding: 0.5px;
     color: #333333;
     background-color: #FFFFFF;
@@ -3171,15 +3171,15 @@ So lets get list for each tier
     vertical-align: middle;
   }
 
-  #jetkbwbfbf .gt_from_md > :first-child {
+  #duokjluwvb .gt_from_md > :first-child {
     margin-top: 0;
   }
 
-  #jetkbwbfbf .gt_from_md > :last-child {
+  #duokjluwvb .gt_from_md > :last-child {
     margin-bottom: 0;
   }
 
-  #jetkbwbfbf .gt_row {
+  #duokjluwvb .gt_row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -3198,7 +3198,7 @@ So lets get list for each tier
     overflow-x: hidden;
   }
 
-  #jetkbwbfbf .gt_stub {
+  #duokjluwvb .gt_stub {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -3211,7 +3211,7 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #jetkbwbfbf .gt_stub_row_group {
+  #duokjluwvb .gt_stub_row_group {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -3225,11 +3225,11 @@ So lets get list for each tier
     vertical-align: top;
   }
 
-  #jetkbwbfbf .gt_row_group_first td {
+  #duokjluwvb .gt_row_group_first td {
     border-top-width: 2px;
   }
 
-  #jetkbwbfbf .gt_summary_row {
+  #duokjluwvb .gt_summary_row {
     color: #333333;
     background-color: #FFFFFF;
     text-transform: inherit;
@@ -3239,16 +3239,16 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #jetkbwbfbf .gt_first_summary_row {
+  #duokjluwvb .gt_first_summary_row {
     border-top-style: solid;
     border-top-color: #D3D3D3;
   }
 
-  #jetkbwbfbf .gt_first_summary_row.thick {
+  #duokjluwvb .gt_first_summary_row.thick {
     border-top-width: 2px;
   }
 
-  #jetkbwbfbf .gt_last_summary_row {
+  #duokjluwvb .gt_last_summary_row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -3258,7 +3258,7 @@ So lets get list for each tier
     border-bottom-color: #D3D3D3;
   }
 
-  #jetkbwbfbf .gt_grand_summary_row {
+  #duokjluwvb .gt_grand_summary_row {
     color: #333333;
     background-color: #FFFFFF;
     text-transform: inherit;
@@ -3268,7 +3268,7 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #jetkbwbfbf .gt_first_grand_summary_row {
+  #duokjluwvb .gt_first_grand_summary_row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -3278,11 +3278,11 @@ So lets get list for each tier
     border-top-color: #D3D3D3;
   }
 
-  #jetkbwbfbf .gt_striped {
+  #duokjluwvb .gt_striped {
     background-color: rgba(128, 128, 128, 0.05);
   }
 
-  #jetkbwbfbf .gt_table_body {
+  #duokjluwvb .gt_table_body {
     border-top-style: solid;
     border-top-width: 2px;
     border-top-color: #D3D3D3;
@@ -3291,7 +3291,7 @@ So lets get list for each tier
     border-bottom-color: #000000;
   }
 
-  #jetkbwbfbf .gt_footnotes {
+  #duokjluwvb .gt_footnotes {
     color: #333333;
     background-color: #FFFFFF;
     border-bottom-style: none;
@@ -3305,7 +3305,7 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #jetkbwbfbf .gt_footnote {
+  #duokjluwvb .gt_footnote {
     margin: 0px;
     font-size: 90%;
     padding-left: 4px;
@@ -3314,7 +3314,7 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #jetkbwbfbf .gt_sourcenotes {
+  #duokjluwvb .gt_sourcenotes {
     color: #333333;
     background-color: #FFFFFF;
     border-bottom-style: none;
@@ -3328,7 +3328,7 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #jetkbwbfbf .gt_sourcenote {
+  #duokjluwvb .gt_sourcenote {
     font-size: 90%;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -3336,64 +3336,64 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #jetkbwbfbf .gt_left {
+  #duokjluwvb .gt_left {
     text-align: left;
   }
 
-  #jetkbwbfbf .gt_center {
+  #duokjluwvb .gt_center {
     text-align: center;
   }
 
-  #jetkbwbfbf .gt_right {
+  #duokjluwvb .gt_right {
     text-align: right;
     font-variant-numeric: tabular-nums;
   }
 
-  #jetkbwbfbf .gt_font_normal {
+  #duokjluwvb .gt_font_normal {
     font-weight: normal;
   }
 
-  #jetkbwbfbf .gt_font_bold {
+  #duokjluwvb .gt_font_bold {
     font-weight: bold;
   }
 
-  #jetkbwbfbf .gt_font_italic {
+  #duokjluwvb .gt_font_italic {
     font-style: italic;
   }
 
-  #jetkbwbfbf .gt_super {
+  #duokjluwvb .gt_super {
     font-size: 65%;
   }
 
-  #jetkbwbfbf .gt_footnote_marks {
+  #duokjluwvb .gt_footnote_marks {
     font-style: italic;
     font-weight: normal;
     font-size: 75%;
     vertical-align: 0.4em;
   }
 
-  #jetkbwbfbf .gt_asterisk {
+  #duokjluwvb .gt_asterisk {
     font-size: 100%;
     vertical-align: 0;
   }
 
-  #jetkbwbfbf .gt_indent_1 {
+  #duokjluwvb .gt_indent_1 {
     text-indent: 5px;
   }
 
-  #jetkbwbfbf .gt_indent_2 {
+  #duokjluwvb .gt_indent_2 {
     text-indent: 10px;
   }
 
-  #jetkbwbfbf .gt_indent_3 {
+  #duokjluwvb .gt_indent_3 {
     text-indent: 15px;
   }
 
-  #jetkbwbfbf .gt_indent_4 {
+  #duokjluwvb .gt_indent_4 {
     text-indent: 20px;
   }
 
-  #jetkbwbfbf .gt_indent_5 {
+  #duokjluwvb .gt_indent_5 {
     text-indent: 25px;
   }
   </style>
@@ -3523,12 +3523,12 @@ So lets get list for each tier
   pretty_table(df=ic,title = "List of University in IC tier")
   ```
 
-  <div id="xjtrxxfouy" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+  <div id="xgirooddbk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
   <style>html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
   }
 
-  #xjtrxxfouy .gt_table {
+  #xgirooddbk .gt_table {
     display: table;
     border-collapse: collapse;
     margin-left: auto;
@@ -3553,7 +3553,7 @@ So lets get list for each tier
     border-left-color: #D3D3D3;
   }
 
-  #xjtrxxfouy .gt_heading {
+  #xgirooddbk .gt_heading {
     background-color: #FFFFFF;
     text-align: center;
     border-bottom-color: #FFFFFF;
@@ -3565,12 +3565,12 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #xjtrxxfouy .gt_caption {
+  #xgirooddbk .gt_caption {
     padding-top: 4px;
     padding-bottom: 4px;
   }
 
-  #xjtrxxfouy .gt_title {
+  #xgirooddbk .gt_title {
     color: #333333;
     font-size: 125%;
     font-weight: initial;
@@ -3582,7 +3582,7 @@ So lets get list for each tier
     border-bottom-width: 0;
   }
 
-  #xjtrxxfouy .gt_subtitle {
+  #xgirooddbk .gt_subtitle {
     color: #333333;
     font-size: 85%;
     font-weight: initial;
@@ -3594,13 +3594,13 @@ So lets get list for each tier
     border-top-width: 0;
   }
 
-  #xjtrxxfouy .gt_bottom_border {
+  #xgirooddbk .gt_bottom_border {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #000000;
   }
 
-  #xjtrxxfouy .gt_col_headings {
+  #xgirooddbk .gt_col_headings {
     border-top-style: solid;
     border-top-width: 2px;
     border-top-color: #000000;
@@ -3615,7 +3615,7 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #xjtrxxfouy .gt_col_heading {
+  #xgirooddbk .gt_col_heading {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -3635,7 +3635,7 @@ So lets get list for each tier
     overflow-x: hidden;
   }
 
-  #xjtrxxfouy .gt_column_spanner_outer {
+  #xgirooddbk .gt_column_spanner_outer {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -3647,15 +3647,15 @@ So lets get list for each tier
     padding-right: 4px;
   }
 
-  #xjtrxxfouy .gt_column_spanner_outer:first-child {
+  #xgirooddbk .gt_column_spanner_outer:first-child {
     padding-left: 0;
   }
 
-  #xjtrxxfouy .gt_column_spanner_outer:last-child {
+  #xgirooddbk .gt_column_spanner_outer:last-child {
     padding-right: 0;
   }
 
-  #xjtrxxfouy .gt_column_spanner {
+  #xgirooddbk .gt_column_spanner {
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #000000;
@@ -3667,7 +3667,7 @@ So lets get list for each tier
     width: 100%;
   }
 
-  #xjtrxxfouy .gt_group_heading {
+  #xgirooddbk .gt_group_heading {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -3693,7 +3693,7 @@ So lets get list for each tier
     text-align: left;
   }
 
-  #xjtrxxfouy .gt_empty_group_heading {
+  #xgirooddbk .gt_empty_group_heading {
     padding: 0.5px;
     color: #333333;
     background-color: #FFFFFF;
@@ -3708,15 +3708,15 @@ So lets get list for each tier
     vertical-align: middle;
   }
 
-  #xjtrxxfouy .gt_from_md > :first-child {
+  #xgirooddbk .gt_from_md > :first-child {
     margin-top: 0;
   }
 
-  #xjtrxxfouy .gt_from_md > :last-child {
+  #xgirooddbk .gt_from_md > :last-child {
     margin-bottom: 0;
   }
 
-  #xjtrxxfouy .gt_row {
+  #xgirooddbk .gt_row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -3735,7 +3735,7 @@ So lets get list for each tier
     overflow-x: hidden;
   }
 
-  #xjtrxxfouy .gt_stub {
+  #xgirooddbk .gt_stub {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -3748,7 +3748,7 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #xjtrxxfouy .gt_stub_row_group {
+  #xgirooddbk .gt_stub_row_group {
     color: #333333;
     background-color: #FFFFFF;
     font-size: 100%;
@@ -3762,11 +3762,11 @@ So lets get list for each tier
     vertical-align: top;
   }
 
-  #xjtrxxfouy .gt_row_group_first td {
+  #xgirooddbk .gt_row_group_first td {
     border-top-width: 2px;
   }
 
-  #xjtrxxfouy .gt_summary_row {
+  #xgirooddbk .gt_summary_row {
     color: #333333;
     background-color: #FFFFFF;
     text-transform: inherit;
@@ -3776,16 +3776,16 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #xjtrxxfouy .gt_first_summary_row {
+  #xgirooddbk .gt_first_summary_row {
     border-top-style: solid;
     border-top-color: #D3D3D3;
   }
 
-  #xjtrxxfouy .gt_first_summary_row.thick {
+  #xgirooddbk .gt_first_summary_row.thick {
     border-top-width: 2px;
   }
 
-  #xjtrxxfouy .gt_last_summary_row {
+  #xgirooddbk .gt_last_summary_row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -3795,7 +3795,7 @@ So lets get list for each tier
     border-bottom-color: #D3D3D3;
   }
 
-  #xjtrxxfouy .gt_grand_summary_row {
+  #xgirooddbk .gt_grand_summary_row {
     color: #333333;
     background-color: #FFFFFF;
     text-transform: inherit;
@@ -3805,7 +3805,7 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #xjtrxxfouy .gt_first_grand_summary_row {
+  #xgirooddbk .gt_first_grand_summary_row {
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 5px;
@@ -3815,11 +3815,11 @@ So lets get list for each tier
     border-top-color: #D3D3D3;
   }
 
-  #xjtrxxfouy .gt_striped {
+  #xgirooddbk .gt_striped {
     background-color: rgba(128, 128, 128, 0.05);
   }
 
-  #xjtrxxfouy .gt_table_body {
+  #xgirooddbk .gt_table_body {
     border-top-style: solid;
     border-top-width: 2px;
     border-top-color: #D3D3D3;
@@ -3828,7 +3828,7 @@ So lets get list for each tier
     border-bottom-color: #000000;
   }
 
-  #xjtrxxfouy .gt_footnotes {
+  #xgirooddbk .gt_footnotes {
     color: #333333;
     background-color: #FFFFFF;
     border-bottom-style: none;
@@ -3842,7 +3842,7 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #xjtrxxfouy .gt_footnote {
+  #xgirooddbk .gt_footnote {
     margin: 0px;
     font-size: 90%;
     padding-left: 4px;
@@ -3851,7 +3851,7 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #xjtrxxfouy .gt_sourcenotes {
+  #xgirooddbk .gt_sourcenotes {
     color: #333333;
     background-color: #FFFFFF;
     border-bottom-style: none;
@@ -3865,7 +3865,7 @@ So lets get list for each tier
     border-right-color: #D3D3D3;
   }
 
-  #xjtrxxfouy .gt_sourcenote {
+  #xgirooddbk .gt_sourcenote {
     font-size: 90%;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -3873,64 +3873,64 @@ So lets get list for each tier
     padding-right: 5px;
   }
 
-  #xjtrxxfouy .gt_left {
+  #xgirooddbk .gt_left {
     text-align: left;
   }
 
-  #xjtrxxfouy .gt_center {
+  #xgirooddbk .gt_center {
     text-align: center;
   }
 
-  #xjtrxxfouy .gt_right {
+  #xgirooddbk .gt_right {
     text-align: right;
     font-variant-numeric: tabular-nums;
   }
 
-  #xjtrxxfouy .gt_font_normal {
+  #xgirooddbk .gt_font_normal {
     font-weight: normal;
   }
 
-  #xjtrxxfouy .gt_font_bold {
+  #xgirooddbk .gt_font_bold {
     font-weight: bold;
   }
 
-  #xjtrxxfouy .gt_font_italic {
+  #xgirooddbk .gt_font_italic {
     font-style: italic;
   }
 
-  #xjtrxxfouy .gt_super {
+  #xgirooddbk .gt_super {
     font-size: 65%;
   }
 
-  #xjtrxxfouy .gt_footnote_marks {
+  #xgirooddbk .gt_footnote_marks {
     font-style: italic;
     font-weight: normal;
     font-size: 75%;
     vertical-align: 0.4em;
   }
 
-  #xjtrxxfouy .gt_asterisk {
+  #xgirooddbk .gt_asterisk {
     font-size: 100%;
     vertical-align: 0;
   }
 
-  #xjtrxxfouy .gt_indent_1 {
+  #xgirooddbk .gt_indent_1 {
     text-indent: 5px;
   }
 
-  #xjtrxxfouy .gt_indent_2 {
+  #xgirooddbk .gt_indent_2 {
     text-indent: 10px;
   }
 
-  #xjtrxxfouy .gt_indent_3 {
+  #xgirooddbk .gt_indent_3 {
     text-indent: 15px;
   }
 
-  #xjtrxxfouy .gt_indent_4 {
+  #xgirooddbk .gt_indent_4 {
     text-indent: 20px;
   }
 
-  #xjtrxxfouy .gt_indent_5 {
+  #xgirooddbk .gt_indent_5 {
     text-indent: 25px;
   }
   </style>

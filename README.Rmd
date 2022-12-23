@@ -39,7 +39,7 @@ library(stringr)
 library(gt)
 ```
 
-```{r include=FALSE}
+```{r message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
 pretty_table<- function(df,title)
   {
   df %>% 
@@ -96,7 +96,7 @@ Here are the problem that i obeserved and perform to clean a data frame:
 
 ### Standardize variable names and values
 
-```{r}
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
 df <- df %>%
   janitor::clean_names()
 pretty_table(df=head(df),title = "Sample 5")
