@@ -36,6 +36,30 @@ library(tidyr)
 library(rvest)
 library(janitor)
 library(stringr)
+library(gt)
+```
+
+```{r include=FALSE}
+pretty_table<- function(df,title)
+  {
+  df %>% 
+    gt() %>%
+    tab_header(title = title) %>%
+    tab_source_note(source_note =  md("*Data from SOA website*")) %>%
+    tab_options(
+        table.border.top.color = "white",
+        heading.border.bottom.color = "black",
+        row_group.border.top.color = "black",
+        row_group.border.bottom.color = "white",
+        stub.border.color = "transparent",
+        table.border.bottom.color = "white",
+        column_labels.border.top.color = "black",
+        column_labels.border.bottom.color = "black",
+        table_body.border.bottom.color = "black",
+        table_body.hlines.color = "white"
+    )
+    
+}
 ```
 
 ## Web scraping
@@ -75,7 +99,7 @@ Here are the problem that i obeserved and perform to clean a data frame:
 ```{r}
 df <- df %>%
   janitor::clean_names()
-head(df)
+pretty_table(df=head(df),title = "Sample 5")
 ```
 
 ### Inconsistencies 
@@ -83,8 +107,7 @@ head(df)
 ```{r}
 df <- df %>%
   separate_rows(level_of_actuarial_courses_offered, sep = ",")
-
-head(df)
+pretty_table(df = head(df),title = "Sample 5")
 ```
 
 ### Unnecessary white space
@@ -93,5 +116,63 @@ head(df)
 df <- df %>%
   mutate(country_territory = str_trim(country_territory),
          level_of_actuarial_courses_offered = str_trim(level_of_actuarial_courses_offered))
-head(df)
+pretty_table(df=head(df),title = "Sample 5")
+
 ```
+
+### Data Exploration
+
+The purpose of this project is to find list of US Universities offering Masters program in actuarial science and are in list of recognized university of SOA
+
+for this we need to perform the following task in R:
+
+```{r}
+df1 <- df %>%
+  filter(level_of_actuarial_courses_offered == "Masters" & country_territory =="United States")
+
+pretty_table(head(df),"sample 5")
+```
+
+### Getting University list based on SOA recognition tier 
+
+The UCAP list includes universities and colleges that have met certain eligibility requirements for recognition as Centers of Actuarial Excellence (CAEs), or as having Introductory Curriculum (UCAP-IC) or Advanced Curriculum (UCAP-AC) status. To be recognized as a CAE, a university must meet eight specific requirements related to its degree programs, curriculum, faculty composition, graduate quality, and other factors. Universities with UCAP-IC status must offer course coverage for at least two SOA preliminary exams and have approved courses for at least one Validation by Educational Experience (VEE) topic area. Universities with UCAP-AC status must offer course coverage for at least four SOA preliminary exams, including Exam LTAM or Exam STAM, and approved courses for all VEE topic areas. The UCAP program also includes a University-Earned Credit (UEC) program, which allows university students to become eligible for SOA exam credit by attaining a designated UEC mark on university courses at approved CAEs.
+
+So lets get list for each tier
+
+-   `CAE with UEC` : University-Earned Credit Status:
+
+    ```{r}
+    uec <- df1 %>%
+      filter(soa_recognition_tier == "CAE/UEC")
+    pretty_table(df=uec,title = "List of University in CAE with UEC tier")
+
+    ```
+
+-   `CAE` : Centers of Actuarial Excellence
+
+    ```{r}
+    cae<- df1 %>%
+      filter(soa_recognition_tier == "CAE")
+
+    pretty_table(df=cae,title = "List of University in CAE tier")
+    ```
+
+-   `UCAP-AC`: Advanced Curriculum
+
+    ```{r}
+    ac <- df1 %>%
+      filter(soa_recognition_tier == "UCAP-AC")
+
+    pretty_table(df=ac,title = "List of University in AC tier")
+    ```
+
+-   `UCAP-IC` : Introductory Curriculum
+
+    ```{r}
+    ic <- df1 %>%
+      filter(soa_recognition_tier == "UCAP-IC")
+
+    pretty_table(df=ic,title = "List of University in IC tier")
+    ```
+
+###  
