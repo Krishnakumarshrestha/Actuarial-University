@@ -28,6 +28,10 @@ Following are the list of package used for the purpose of this project.
 
 -   `janitor` : cleaning names
 
+-   `ggplo2` : for creating graphs
+
+-   `gt` : for creating tables
+
 ### Loading library
 
 ```{r message=FALSE, warning=FALSE, paged.print=FALSE}
@@ -37,6 +41,7 @@ library(rvest)
 library(janitor)
 library(stringr)
 library(gt)
+library(ggplot2)
 ```
 
 ```{r message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
@@ -100,15 +105,15 @@ Here are the problem that i obeserved and perform to clean a data frame:
 ```{r message=FALSE, warning=FALSE, paged.print=FALSE}
 df <- df %>%
   janitor::clean_names()
-pretty_table(df=head(df),title = "Sample 5")
+#pretty_table(df=head(df),title = "Sample 5")
 ```
 
-### Inconsistencies 
+### Inconsistencies
 
 ```{r}
 df <- df %>%
   separate_rows(level_of_actuarial_courses_offered, sep = ",")
-pretty_table(df = head(df),title = "Sample 5")
+#pretty_table(df = head(df),title = "Sample 5")
 ```
 
 ### Unnecessary white space
@@ -117,11 +122,11 @@ pretty_table(df = head(df),title = "Sample 5")
 df <- df %>%
   mutate(country_territory = str_trim(country_territory),
          level_of_actuarial_courses_offered = str_trim(level_of_actuarial_courses_offered))
-pretty_table(df=head(df),title = "Sample 5")
+#pretty_table(df=head(df),title = "Sample 5")
 
 ```
 
-### Data Exploration
+## Data Exploration
 
 The purpose of this project is to find list of US Universities offering Masters program in actuarial science and are in list of recognized university of SOA
 
@@ -134,7 +139,7 @@ df1 <- df %>%
 pretty_table(head(df),"sample 5")
 ```
 
-### Getting University list based on SOA recognition tier 
+### Getting US University list based on SOA recognition tier
 
 The UCAP list includes universities and colleges that have met certain eligibility requirements for recognition as Centers of Actuarial Excellence (CAEs), or as having Introductory Curriculum (UCAP-IC) or Advanced Curriculum (UCAP-AC) status. To be recognized as a CAE, a university must meet eight specific requirements related to its degree programs, curriculum, faculty composition, graduate quality, and other factors. Universities with UCAP-IC status must offer course coverage for at least two SOA preliminary exams and have approved courses for at least one Validation by Educational Experience (VEE) topic area. Universities with UCAP-AC status must offer course coverage for at least four SOA preliminary exams, including Exam LTAM or Exam STAM, and approved courses for all VEE topic areas. The UCAP program also includes a University-Earned Credit (UEC) program, which allows university students to become eligible for SOA exam credit by attaining a designated UEC mark on university courses at approved CAEs.
 
@@ -176,4 +181,26 @@ So lets get list for each tier
     pretty_table(df=ic,title = "List of University in IC tier")
     ```
 
-###  
+### 
+
+### Other then US university
+
+Now lets look at university other than in USA .
+
+First lets try finding country having more number of university who falls in the `SOA` tier
+
+```{r}
+df2 <- df %>%
+  filter(level_of_actuarial_courses_offered == "Masters" & country_territory !="United States") %>%
+  group_by(country_territory) %>%
+  summarise(number=n()) %>%
+  filter(number>1) %>%
+  ungroup()
+
+plot1<- ggplot(data = df2,aes(x=reorder(country_territory,number),y=number))+
+  geom_col()
+  
+plot1
+
+
+```
