@@ -197,8 +197,10 @@ df2 <- df %>%
   filter(number>1) %>%
   ungroup()
 
-plot1<- ggplot(data = df2,aes(x=reorder(country_territory,number),y=number))+
-  geom_col()
+plot1<- ggplot(data = df2,aes(x=reorder(country_territory,number),y=number,fill=country_territory))+
+  geom_col()+
+  scale_fill_brewer(palette = "Set1")+
+  geom_text(aes(label = number), vjust = -0.2, size = 5)
   
 plot1
 
